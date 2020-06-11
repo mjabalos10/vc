@@ -1,0 +1,97 @@
+body{
+	margin: 0;
+    padding: 0;
+    background: url(pic3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    text-align: center;
+}
+body h1, body h2 {
+    color: #11999E;
+}
+body h1 {
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive; 
+    color: #21c8de;
+}
+body h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 2px; }
+body p {
+    line-height: 2; 
+    font-weight: bolder;
+    font-size: 20px;
+}
+body hr
+{
+	border:dotted #C0C0C0;
+	border-bottom:none;
+	width:2%;
+	margin:100px auto;
+}
+ button.message-button {
+	width: 200px;
+    height: 46px;
+	background-color: #45b29a;
+	color: #1b7f69;
+	border-color: transparent;
+	transition: all 0.5s;
+	display: block;
+    margin: 0 auto;
+}
+
+button.message-button:hover {
+	background-color: #c1d8ec !important;
+	color: #1b7f69 !important;
+	border-color: transparent;
+	transition: all 0.5s;
+}
+
+.mail-me {
+	padding-right: 12px;
+}
+
+.mail-me-img {
+	padding-bottom: 3px;
+}
+
+.message-text {
+	text-transform: uppercase;
+	font-size: 16px;
+    font-weight: 300;
+	padding-right: 15px;
+	color: inherit;
+}
+		.marbot5{
+			width: 45% !important;
+}
+
+footer {
+    background-color:#c1d8ec;
+}
+
+.socials {
+    height: 50px;
+    width: 50px;
+    margin: 30px 40px auto;
+    cursor: pointer;
+}
+
+.socials.github {
+    margin: 30px 40px auto;
+    width: 60px;
+}
+
+.copyright {
+    font-weight: bold;
+    margin: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #c1d8ec;
+    text-align: -webkit-center;
+}
+

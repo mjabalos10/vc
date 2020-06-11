@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Merriweather|Montserrat|Sacramento&display=swap");
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather' sans-serif;
+  color: #40514e; }
+  body h1, body h2 {
+    color: #66BFBF; }
+  body h3, body a {
+    color: #11999E; }
+  body h1 {
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+  body h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 2px; }
+  body h3 {
+    font-family: 'Montserrat', sans-serif; }
+  body p {
+    line-height: 2; }
+  body hr {
+    border: dotted #E4F9F5;
+    border-bottom: none;
+    width: 2%;
+    margin: 100px auto; }
+  body a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px; }
+  }
+
+.small {
+    line-height: 0.3;
+    width: 1000px;
+}
+
+.row:after {
+    clear: both;
+    content: " ";
+    display: table;
+
+}
+
+.col {
+    background: #555;
+    color: white;
+    padding: 10px .5%;
+    width: 31%;
+    margin: .5%;
+    float: left;
+    border-radius: 5px;
+}
+
+.highlight {
+    background: white;
+    padding: 5px;
+}
+
+.bold {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+}
+
+.fhighlight {
+    background: #444;
+    padding: 5px;
+}
+  body a:hover {
+    color: #EAF6F6;
+    cursor: pointer; }
+  body .top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px; }
+  body .bottom-container {
+    margin: 100px 0 0 0;
+    background-color: #66BFBF;
+    padding: 40px 0 20px 20px; }
+    body .bottom-container p {
+      color: #EAF6F6;
+      font-size: 0.75rem;
+      padding: 10px 0; }
+  body .middle-container {
+    margin: 100px auto; }
+  body .skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left; }
+    body .skill-row img {
+      width: 25%;
+      float: left;
+      margin-right: 30px; }
+    body .skill-row .web-img {
+      float: right;
+      margin-left: 30px; }
+  body #top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px; }
+  body #bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px; }
+  body .profile img {
+    border-radius: 50%;
+    max-width: 48%;
+    max-height: 200px;
+    border: 3px solid #11999E;
+    box-shadow: 0px 0px 10px 1px #808080; }
+  body .profile img:hover {
+    max-height: 202px;
+    cursor: pointer;
+    border: 3px solid #66BFBF; }
+  body .profile p {
+    width: 35%;
+    margin: auto; }
+  body .contact-me p {
+    width: 40%;
+    margin: 40px auto 60px; }
+  body .contact-me .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none; }
+  body .contact-me .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none; }  
+
+    body {
+  background-image: url("../images/room.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', serif;
+}
+
